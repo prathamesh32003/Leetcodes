@@ -1,3 +1,5 @@
+// I can see why this is one of the most hated problems cause usually you'd come up with this solution but the log(m + n) adds the actual "Hard" part 
+
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {

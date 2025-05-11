@@ -1,3 +1,9 @@
+// Took me a while to understand but I finally did understand it. I usually struggled with understand when to update left and right so here's my understanding:
+// You always want to have smallest number in your custom pointers so if right of bigger array is smaller than left of smaller then decrease smaller array because we want the smaller element
+// Similarly if right of smaller array is smaller than left of bigger array then we want it in our custom array so increase the smaller array by increment left
+// Basically if you increment left you increase the length of smaller array and decrease that of bigger arrat and if you decrement right, you decrease the size of smaller array and increase that of bigger array
+// Depending on where the smaller element exists you either increase smaller array of bigger array by decreasing the other
+
 class Solution {
 public:
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
